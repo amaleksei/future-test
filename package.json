@@ -1,12 +1,12 @@
 {
   "name": "future-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Тестовое задание на позицию Fronend frontend разработчика (future-group)",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --open",
     "webpack": "webpack",
-    "eslint": "eslint \"**/*.{js,jsx}\" --quiet",
+    "eslint": "eslint . --ext .js --ext .jsx --ext .json --ext md .",
     "watch": "webpack --watch"
   },
   "repository": {
@@ -34,7 +34,9 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-json": "^1.2.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
     "eslint-plugin-react": "^7.7.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "webpack": "^4.4.1",
