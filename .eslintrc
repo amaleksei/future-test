@@ -4,7 +4,8 @@
         "react",
         "jsx-a11y",
         "import",
-        "json"
+        "json",
+        "markdown"
     ],
     "parser": "babel-eslint",
     "env": {
