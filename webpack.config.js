@@ -58,6 +58,9 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   plugins: [
     new ExtractTextPlugin({
       filename: './assets/css/style.bundle.css',
@@ -71,10 +74,6 @@ module.exports = {
       {
         from: './src/assets/favicon',
         to: './assets/favicon',
-      },
-      {
-        from: './src/javascripts',
-        to: './javascripts',
       },
       {
         from: './src/assets/favicon',
