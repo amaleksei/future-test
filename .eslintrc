@@ -5,7 +5,8 @@
         "jsx-a11y",
         "import",
         "json",
-        "markdown"
+        "markdown",
+        "jest"
     ],
     "parser": "babel-eslint",
     "env": {
