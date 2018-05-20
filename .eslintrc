@@ -1,5 +1,7 @@
 {
-    "extends": "airbnb",
+    "extends": ["airbnb",
+                "plugin:jest/recommended"
+    ],
     "plugins": [
         "react",
         "jsx-a11y",
