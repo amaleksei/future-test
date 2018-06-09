@@ -11,6 +11,9 @@
     "flow": "flow",
     "test": "jest --colors"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amaleksei/future-test.git"
@@ -48,6 +51,7 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "flow-bin": "^0.72.0",
     "jest": "^22.4.4",
+    "jest-cli": "^23.1.0",
     "react-test-renderer": "^16.3.2",
     "webpack": "^4.4.1",
     "webpack-cli": "^2.0.13"
