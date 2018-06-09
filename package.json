@@ -12,7 +12,8 @@
     "test": "jest --colors"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "moduleFileExtensions": ["js", "jsx"]
   },
   "repository": {
     "type": "git",
